@@ -2,7 +2,7 @@ import numpy as np
 
 print('Printing Array\n')
 
-lista = np.array([[64392, 31655],[32579, 0],[49248, 462],[0, 0]], dtype=np.uint16)
+lista = np.empty([4, 2], dtype=np.uint16)
 print(f'{lista}\n')
 
 print('Printing numpy array Atributes\n')
